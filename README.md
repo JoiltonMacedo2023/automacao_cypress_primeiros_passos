@@ -22,7 +22,7 @@ Isso iniciará a execução dos testes Cypress. Os resultados dos testes serão 
 - `cypress/support`: Este diretório contém arquivos de suporte, como comandos personalizados ou plugins.
 - `cypress.json`: Arquivo de configuração do Cypress.
 
-## Testes
+## **Passos do Teste**
 
 ### Login - Sucesso
 
@@ -31,10 +31,11 @@ Este teste verifica se é possível fazer login com credenciais válidas.
 Passos do teste:
 
 1. Visita a página de login.
-2. Insere o nome de usuário e senha válidos.
-3. Clica no botão de login.
-4. Verifica se a URL da página é redirecionada para o dashboard.
-5. Verifica se o breadcrumb contém a palavra "Dashboard".
+2. Faz login com credenciais válidas.
+3. Navega para a página do dashboard.
+4. Clica no botão "My Info".
+5. Preenche os campos de informações do usuário.
+6. Verifica se as informações foram atualizadas com sucesso.
 
 ### Login - Falha
 
