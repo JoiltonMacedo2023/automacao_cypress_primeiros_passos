@@ -11,7 +11,7 @@ class LoginPage {
   }
 
   accessLoginPage() {
-    cy.visit('/auth/login')
+   cy.visit('/auth/login')
   }
 
   loginWithAnyUser(username, password) {
