@@ -60,6 +60,4 @@ Passos do teste:
 3. Navega para a página do dashboard.
 4. Clica no botão "My Info".
 5. Preenche os campos de informações do usuário.
-6. Verifica se as informações foram atualizadas com sucesso.
-
-   
+6. Verifica se as informações foram atualizadas com sucesso. 
