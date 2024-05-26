@@ -5,9 +5,8 @@ Este projeto contém testes de automação utilizando Cypress para a página de 
 ## Instalação
 
 1. Inicie o projeto executando o comando : `npm init -y` na pasta criada.
-> NOTE
->
-> É necessário  oNode instalado.   
+
+> É necessário  o Node instalado.   
    
 2. No diretório do projeto, execute o comando `npm install cypress --save-dev` para instalar as dependências.
 
