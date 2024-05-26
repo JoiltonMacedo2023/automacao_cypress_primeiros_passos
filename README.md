@@ -49,7 +49,7 @@ Passos do teste:
 3. Clica no botão de login.
 4. Verifica se uma mensagem de alerta é exibida.
 
-## Acesso a página do Usuário
+### Acesso a página do Usuário
 
 Este teste veirifca se o cadastro do usuário foi relaizado na página My info.  
 
