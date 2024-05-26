@@ -33,7 +33,7 @@ describe('Orange HRM Tests', () => {
       chance.ssn({ ssnFour: true }),
       '2025-07-22'
     )  
-
+    
     myInfoPage.fillStatus('1981-08-30')
     myInfoPage.saveForm()     
   })
