@@ -1,4 +1,4 @@
-# My Cypress Test Automation Login
+# My Cypress Test Automation
 
 Este projeto contém testes de automação utilizando Cypress para a página de login do Orange HRM.
 
