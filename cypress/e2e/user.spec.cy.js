@@ -37,5 +37,4 @@ describe('Orange HRM Tests', () => {
     myInfoPage.fillStatus('1981-08-30')
     myInfoPage.saveForm()     
   })
-
 })
