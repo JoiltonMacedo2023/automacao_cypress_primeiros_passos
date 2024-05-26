@@ -1,12 +1,12 @@
-# My Cypress Test Automation
+# **My Cypress Test Automation**
 
-Este projeto contém testes de automação utilizando Cypress para a página de login do Orange HRM.
+Este projeto utiliza cypress para automatizar o teste de uma feature de login e uma feature de atualização do usuário. Cypress é uma estrutura de teste end-to-end baseada em JavaScript que permite aos desenvolvedores escrever testes e executá-los em um navegador real. Este projeto contém testes de automação para a página Web Orange HRM (`https://opensource-demo.orangehrmlive.com/web/index.php/auth/login`).
 
 ## Instalação
 
 1. Inicie o projeto executando o comando : `npm init -y` na pasta criada.
 
-> É necessário  o Node instalado.   
+> É necessário o **Node** instalado.   
    
 2. No diretório do projeto, execute o comando `npm install cypress --save-dev` para instalar as dependências.
 
@@ -34,11 +34,9 @@ Este teste verifica se é possível fazer login com credenciais válidas.
 Passos do teste:
 
 1. Visita a página de login.
-2. Faz login com credenciais válidas.
-3. Navega para a página do dashboard.
-4. Clica no botão "My Info".
-5. Preenche os campos de informações do usuário.
-6. Verifica se as informações foram atualizadas com sucesso.
+2. Insere um nome de usuário e senha inválidos.
+3. Clica no botão de login.
+4. Redireciona a página para Dashborad do usuário.
 
 ### Login - Falha
 
@@ -50,3 +48,18 @@ Passos do teste:
 2. Insere um nome de usuário e senha inválidos.
 3. Clica no botão de login.
 4. Verifica se uma mensagem de alerta é exibida.
+
+## Acesso a página do Usuário
+
+Este teste veirifca se o cadastro do usuário foi relaizado na página My info.  
+
+Passos do teste:
+
+1. Visita a página de login.
+2. Faz login com credenciais válidas.
+3. Navega para a página do dashboard.
+4. Clica no botão "My Info".
+5. Preenche os campos de informações do usuário.
+6. Verifica se as informações foram atualizadas com sucesso.
+
+   
