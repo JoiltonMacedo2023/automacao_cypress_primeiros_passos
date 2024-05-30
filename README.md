@@ -1,7 +1,6 @@
 # **My Cypress Test Automation**
 
-Este projeto utiliza cypress para automatizar o teste de uma feature de login e uma feature de atualização do usuário. Cypress é uma estrutura de teste end-to-end baseada em JavaScript que permite aos desenvolvedores escrever testes e executá-los em um navegador real. Este projeto contém testes de automação para a página Web Orange HRM
-(`https://opensource-demo.orangehrmlive.com/web/index.php/auth/login`).
+Este projeto utiliza cypress para automatizar o teste de uma feature de login e uma feature de atualização do usuário. Cypress é uma estrutura de teste end-to-end baseada em JavaScript que permite aos desenvolvedores escrever testes e executá-los em um navegador real. Este projeto contém testes de automação para a página Web Orange HRM ```(`https://opensource-demo.orangehrmlive.com/web/index.php/auth/login`)```
 
 ## Instalação
 
